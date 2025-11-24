@@ -5,7 +5,11 @@ const UseStateArray = () => {
 	return (
 		<div>
 			{people.map(({ id, name }) => {
-				return <h2>{name}</h2>;
+				return (
+					<div key={id}>
+						<h2>{name}</h2>
+					</div>
+				);
 			})}
 		</div>
 	);
