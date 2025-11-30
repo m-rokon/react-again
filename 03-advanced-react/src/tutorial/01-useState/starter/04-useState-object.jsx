@@ -15,7 +15,8 @@ const UseStateObject = () => {
         // setName("Raj");
         // setAge(27);
         // setHobby("Swim");
-        setPerson({ name: "Rafi", age: 26, hobby: "Running" });
+        // setPerson({ name: "Rafi", age: 26, hobby: "Running" });
+        setPerson({ name: "Rafi" });
     };
 
     return (
