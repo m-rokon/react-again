@@ -16,7 +16,9 @@ const UseStateObject = () => {
         // setAge(27);
         // setHobby("Swim");
         // setPerson({ name: "Rafi", age: 26, hobby: "Running" });
-        setPerson({ name: "Rafi" });
+        // setPerson({ name: "Rafi" }); // there is no other objects, so it will only show the name and other fields will be empty
+
+        setPerson({ ...person, name: "Raju" }); // for the above problem, this is one kind of solution
     };
 
     return (
