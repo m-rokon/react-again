@@ -7,12 +7,24 @@ const UseStateGotcha = () => {
 		// setValue(value + 1);
 		// console.log(value);
 		/* for the above setup, console will always be 1 step behind.. to solve this, we can use the following process */
-		setValue((currentState) => {
-			const newValue = currentState + 1;
-			console.log(newValue);
+		// setValue((currentState) => {
+		// 	const newValue = currentState + 1;
+		// 	console.log(newValue);
 
-			return newValue;
-		});
+		// 	return newValue;
+		// });
+
+		// for better understanding, let's use setTimeOut function
+		setTimeout(() => {
+			console.log("button clicked");
+
+			// setValue(value + 1);
+
+			// to fix this, we can use the callback function
+			setValue((currentValue) => {
+				return currentValue + 1;
+			});
+		}, 3000);
 	};
 
 	return (
