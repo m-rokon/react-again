@@ -3,10 +3,9 @@
 // import UseStateArray from "./tutorial/01-useState/starter/03-useState-array";
 // import UseStateObject from "./tutorial/01-useState/starter/04-useState-object";
 // import UseStateGotcha from "./tutorial/01-useState/starter/05-useState-gotcha";
-
-import MultipleEffects from "./tutorial/02-useEffect/starter/03-multiple-effects";
-
+// import MultipleEffects from "./tutorial/02-useEffect/starter/03-multiple-effects";
 // import CodeExample from "./tutorial/02-useEffect/starter/01-code-example";
+import FetchData from "./tutorial/02-useEffect/starter/04-fetch-data";
 
 function App() {
 	return (
@@ -17,7 +16,8 @@ function App() {
 			{/* <UseStateObject /> */}
 			{/* <UseStateGotcha /> */}
 			{/* <CodeExample /> */}
-			<MultipleEffects />
+			{/* <MultipleEffects /> */}
+			<FetchData />
 		</div>
 	);
 }
