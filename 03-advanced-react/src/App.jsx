@@ -6,7 +6,8 @@
 // import MultipleEffects from "./tutorial/02-useEffect/starter/03-multiple-effects";
 // import CodeExample from "./tutorial/02-useEffect/starter/01-code-example";
 // import FetchData from "./tutorial/02-useEffect/starter/04-fetch-data";
-import MultipleReturnsBasics from "./tutorial/03-conditional-rendering/starter/01-multiple-returns-basics";
+// import MultipleReturnsBasics from "./tutorial/03-conditional-rendering/starter/01-multiple-returns-basics";
+import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data";
 
 function App() {
 	return (
@@ -19,7 +20,8 @@ function App() {
 			{/* <CodeExample /> */}
 			{/* <MultipleEffects /> */}
 			{/* <FetchData /> */}
-			<MultipleReturnsBasics />
+			{/* <MultipleReturnsBasics /> */}
+			<MultipleReturnsFetchData />
 		</div>
 	);
 }
