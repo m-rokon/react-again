@@ -33,17 +33,18 @@ const MultipleReturnsFetchData = () => {
     if (isError) {
         return <h2>There was an error...</h2>;
     }
-
+    // destructuring challange
+    const { avatar_url, login, name, company, bio } = user;
     return (
         <div>
             <img
                 style={{ width: "150px", borderRadius: "15px" }}
-                src={user.avatar_url}
-                alt={user.login}
+                src={avatar_url}
+                alt={login}
             />
-            <h2>{user.name}</h2>
-            <h5>Works at: {user.company}</h5>
-            <p>{user.bio}</p>
+            <h2>{name}</h2>
+            <h5>Works at: {company}</h5>
+            <p>{bio}</p>
         </div>
     );
 };
