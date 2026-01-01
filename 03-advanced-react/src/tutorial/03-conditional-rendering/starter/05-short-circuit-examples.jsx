@@ -11,6 +11,19 @@ const ShortCircuitExamples = () => {
 	return (
 		<div>
 			<h2>{text || "default value"}</h2>
+			{text && (
+				<div>
+					<h2>Whatever returns</h2>
+					<h4>{name}</h4>
+				</div>
+			)}
+			{/* using not operator */}
+			{!text && (
+				<div>
+					<h2>Whatever returns</h2>
+					<h4>{name}</h4>
+				</div>
+			)}
 		</div>
 	);
 };
