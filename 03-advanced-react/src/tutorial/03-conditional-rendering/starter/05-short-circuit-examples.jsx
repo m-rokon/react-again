@@ -34,6 +34,18 @@ const ShortCircuitExamples = () => {
 				</div>
 			)}
 			{user && <SomeComponent name={name} />}
+			{/* conditional content - ternary operator */}
+			<h2 style={{ margin: "1rem 0" }}>Ternary Operator</h2>
+			<button className="btn">{isEditing ? "edit" : "add"}</button>
+			{user ? (
+				<div>
+					<h2>Hello, {user.name}</h2>
+				</div>
+			) : (
+				<div>
+					<h2>Please Login</h2>
+				</div>
+			)}
 		</div>
 	);
 };
