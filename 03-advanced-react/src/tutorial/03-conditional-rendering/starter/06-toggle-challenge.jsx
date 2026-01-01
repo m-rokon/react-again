@@ -17,7 +17,10 @@ const ToggleChallenge = () => {
 
 	return (
 		<div>
-			<button className="btn" onClick={handleToggle}>
+			{/* <button className="btn" onClick={handleToggle}>
+				toggle
+			</button> */}
+			<button className="btn" onClick={() => setToggle(!toggle)}>
 				toggle
 			</button>
 			{toggle && <Alert />}
