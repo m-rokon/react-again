@@ -11,7 +11,8 @@
 // import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
 // import ShortCircuitExamples from "./tutorial/03-conditional-rendering/starter/05-short-circuit-examples";
 // import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
-import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
+// import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
+import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
 
 function App() {
 	return (
@@ -29,7 +30,8 @@ function App() {
 			{/* <ShortCircuitOverview /> */}
 			{/* <ShortCircuitExamples /> */}
 			{/* <ToggleChallenge /> */}
-			<UserChallenge />
+			{/* <UserChallenge /> */}
+			<CleanupFunction />
 		</div>
 	);
 }
